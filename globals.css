@@ -1,0 +1,28 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #f8fafc;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+#__next {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+input, button, textarea, select {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar { display: none; }
+input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; }
